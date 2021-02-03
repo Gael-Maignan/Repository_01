@@ -1,0 +1,114 @@
+div#content {
+	background-color: green;
+}
+
+div#content div {
+	display: inline-block;
+	width: 49%;
+}
+div#content div h1, p {
+	margin: 10px;
+}
+div#content div.left{
+	background-color: red;
+}
+div#content div.right{
+	background-color: pink;
+	vertical-align: top;
+}
+
+
+body {
+	margin: 0;
+}
+#blocPage {
+	width: 900px;
+    margin: auto;
+    margin-bottom: 0:
+}
+header {
+}
+header p {
+	font-size: 16px;
+	color: red;
+}
+header h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+header nav a {
+}
+
+footer {
+	color: #9683EC;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li.btn {
+	list-style-type: none;
+	margin-right: 10px;
+
+
+}
+
+nav ul li.btn a{
+	list-style-type: none;
+	padding: 5px;
+    background-color: #9683EC;
+    border-style: solid;
+    border-color: #8868A7;
+    color: white;
+}
+nav ul li.btn a:hover{
+	list-style-type: none;
+	padding: 5px;
+    background-color: #8868A7;
+    border-style: solid;
+    border-color: #9683EC;
+    transition: 0.3s all;
+    /*color: pink;*/
+}
+
+strong, h1 {
+	color: black;
+}
+h1, h2, h3, h4, p, ul, a {
+	font-family: 'arial';
+	/*font-family: 'ModernSans-Light', 'arial';*/
+}
+h1, h2, h3, h4 {
+	color: #9683EC;
+}
+
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+
+
+h2{
+	text-decoration: underline;
+}
+a {
+	color: #8868A7;
+}
+/* Fonts */
+@font-face {
+    font-family: 'ModernSans-Light';
+    src: url('../fonts/ModernSans-Light.eot') format('eot'),
+         url('../fonts/ModernSans-Light.woff') format('woff'),
+         url('../fonts/ModernSans-Light.ttf') format('truetype'),
+         url('../fonts/ModernSans-Light.svg') format('svg');
+}
+
